@@ -42,7 +42,7 @@ function Spaceinvaders() {
                 <div className="flex max-w-xl w-full">
                     <a href="https://kisukesaama.github.io/SpaceInvaders/" target="_blank" rel="noopener noreferrer">
                         <img 
-                            src="./src/assets/spaceinvaders.png" 
+                            src="/images/spaceinvaders.png" 
                             alt="Ecran d'acceuil de Space Invaders" 
                             className="w-full h-auto object-cover rounded-2xl shadow-2xl shadow-fuchsia-500/30 ring-2 ring-fuchsia-400/40" 
                         />

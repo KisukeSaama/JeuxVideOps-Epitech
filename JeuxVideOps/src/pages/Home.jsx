@@ -41,7 +41,7 @@ function Home() {
                 </div>
                 <div className="flex max-w-xl w-full">
                     <img 
-                        src="./src/assets/arcade.jpg" 
+                        src="/images/arcade.jpg" 
                         alt="Borne d'arcade de présentation" 
                         className="w-full h-auto object-cover rounded-2xl shadow-2xl shadow-fuchsia-500/30 ring-2 ring-fuchsia-400/40" 
                     />

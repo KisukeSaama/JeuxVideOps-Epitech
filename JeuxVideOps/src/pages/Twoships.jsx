@@ -42,7 +42,7 @@ function Twoships() {
                 <div className="flex max-w-xl w-full">
                     <a href="https://corentin-epitech.github.io/TwoShip/" target="_blank" rel="noopener noreferrer">
                         <img 
-                            src="./src/assets/twoships.png" 
+                            src="/images/twoships.png" 
                             alt="Ecran d'acceuil de Two Ships" 
                             className="w-full h-auto object-cover rounded-2xl shadow-2xl shadow-fuchsia-500/30 ring-2 ring-fuchsia-400/40" 
                         />
