@@ -1,10 +1,10 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import PageTransition from "../components/PageTransition";
 
 function Twoships() {
-
     return (
-        <>
+        <PageTransition>
             <Header />
             
             <div className="min-h-screen bg-linear-to-r from-fuchsia-900 to-purple-900 flex justify-center items-center xl:flex-row flex-col xl:gap-16 gap-10 px-6 py-20">
@@ -23,7 +23,7 @@ function Twoships() {
                             Prenez les armes pour défendre votre vaisseau et éliminer les dangereux robots vous attaquant.
                         </p>
                         <p className="text-fuchsia-100 text-justify leading-relaxed">
-                            Vous devez gérer vos déplacement , votre visée et vos tirs.
+                            Vous devez gérer vos déplacements, votre visée et vos tirs.
                         </p>
                         
                         <div className="pt-6">
@@ -43,14 +43,14 @@ function Twoships() {
                     <a href="https://corentin-epitech.github.io/TwoShip/" target="_blank" rel="noopener noreferrer">
                         <img 
                             src="/images/twoships.png" 
-                            alt="Ecran d'acceuil de Two Ships" 
+                            alt="Écran d'accueil de Two Ships" 
                             className="w-full h-auto object-cover rounded-2xl shadow-2xl shadow-fuchsia-500/30 ring-2 ring-fuchsia-400/40" 
                         />
                     </a>
                 </div>
             </div>
             <Footer />
-        </>
+        </PageTransition>
     );
 }
 

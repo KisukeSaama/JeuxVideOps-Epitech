@@ -1,10 +1,10 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import PageTransition from "../components/PageTransition";
 
 function Spaceinvaders() {
-
     return (
-        <>
+        <PageTransition>
             <Header />
             
             <div className="min-h-screen bg-linear-to-r from-fuchsia-900 to-purple-900 flex justify-center items-center xl:flex-row flex-col xl:gap-16 gap-10 px-6 py-20">
@@ -43,7 +43,7 @@ function Spaceinvaders() {
                     <a href="https://kisukesaama.github.io/SpaceInvaders/" target="_blank" rel="noopener noreferrer">
                         <img 
                             src="/images/spaceinvaders.png" 
-                            alt="Ecran d'acceuil de Space Invaders" 
+                            alt="Écran d'accueil de Space Invaders" 
                             className="w-full h-auto object-cover rounded-2xl shadow-2xl shadow-fuchsia-500/30 ring-2 ring-fuchsia-400/40" 
                         />
                     </a>
@@ -51,7 +51,7 @@ function Spaceinvaders() {
             </div>
                     
             <Footer />
-        </>
+        </PageTransition>
     );
 }
 

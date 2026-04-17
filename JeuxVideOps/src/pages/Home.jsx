@@ -1,13 +1,13 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import PageTransition from "../components/PageTransition";
 
 function Home() {
-
     return (
-        <>
+        <PageTransition>
             <Header />
             
-            <div className="min-h-screen bg-gradient-to-r from-fuchsia-900 to-purple-900 flex justify-center items-center xl:flex-row flex-col xl:gap-16 gap-10 px-6 py-20">
+            <div className="min-h-screen bg-linear-to-r from-fuchsia-900 to-purple-900 flex justify-center items-center xl:flex-row flex-col xl:gap-16 gap-10 px-6 py-20">
                 <div className="border border-fuchsia-500/30 shadow-2xl shadow-fuchsia-500/20 rounded-2xl max-w-xl w-full bg-fuchsia-950/80 backdrop-blur-sm">
                     <div className="flex flex-col p-8 xl:p-10 space-y-4">
                         <h2 className="text-3xl font-bold text-fuchsia-100 border-b-2 border-fuchsia-400 pb-2 inline-block">
@@ -23,7 +23,7 @@ function Home() {
                             Tandis que les tests fonctionnels vont simuler des scénarios d'utilisation pour s'assurer que les jeux offrent une expérience utilisateur fluide et sans bugs.
                         </p>
                         <p className="text-fuchsia-100 text-justify leading-relaxed">
-                            Le projet à été realisé par :
+                            Le projet a été réalisé par :
                         </p>
                         <ul className="text-fuchsia-100 text-justify leading-relaxed flex flex-row space-x-10">
                             <li>
@@ -49,7 +49,7 @@ function Home() {
             </div>
 
             <Footer />
-        </>
+        </PageTransition>
     );
 }
 
