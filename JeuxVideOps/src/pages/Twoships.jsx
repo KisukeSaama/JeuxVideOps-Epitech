@@ -25,6 +25,9 @@ function Twoships() {
                         <p className="text-fuchsia-100 text-justify leading-relaxed">
                             Vous devez gérer vos déplacements, votre visée et vos tirs.
                         </p>
+                        <a href="https://github.com/Corentin-Epitech/TwoShip" target="_blank" rel="noopener noreferrer" className="text-fuchsia-300 hover:text-fuchsia-400 font-bold">
+                                    📥​ Repo Github
+                        </a>
                         
                         <div className="pt-6">
                             <a 

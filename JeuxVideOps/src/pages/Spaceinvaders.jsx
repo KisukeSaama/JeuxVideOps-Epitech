@@ -25,6 +25,9 @@ function Spaceinvaders() {
                         <p className="text-fuchsia-100 text-justify leading-relaxed">
                             Dans ce jeu, vous gérez les mouvements et les tirs de votre vaisseau.
                         </p>
+                        <a href="https://github.com/kisukesaama/SpaceInvaders" target="_blank" rel="noopener noreferrer" className="text-fuchsia-300 hover:text-fuchsia-400 font-bold">
+                                    📥​ Repo Github
+                        </a>
                         
                         <div className="pt-6">
                             <a 
